@@ -23,37 +23,36 @@ Swiss cantons map
 
 from __future__ import division
 from pygal.graph.map import BaseMap
-from pygal._compat import u
 import os
 
 
 CANTONS = {
-    'kt-zh': u("ZH"),
-    'kt-be': u("BE"),
-    'kt-lu': u("LU"),
-    'kt-ju': u("JH"),
-    'kt-ur': u("UR"),
-    'kt-sz': u("SZ"),
-    'kt-ow': u("OW"),
-    'kt-nw': u("NW"),
-    'kt-gl': u("GL"),
-    'kt-zg': u("ZG"),
-    'kt-fr': u("FR"),
-    'kt-so': u("SO"),
-    'kt-bl': u("BL"),
-    'kt-bs': u("BS"),
-    'kt-sh': u("SH"),
-    'kt-ar': u("AR"),
-    'kt-ai': u("AI"),
-    'kt-sg': u("SG"),
-    'kt-gr': u("GR"),
-    'kt-ag': u("AG"),
-    'kt-tg': u("TG"),
-    'kt-ti': u("TI"),
-    'kt-vd': u("VD"),
-    'kt-vs': u("VS"),
-    'kt-ne': u("NE"),
-    'kt-ge': u("GE"),
+    'kt-zh': "ZH",
+    'kt-be': "BE",
+    'kt-lu': "LU",
+    'kt-ju': "JH",
+    'kt-ur': "UR",
+    'kt-sz': "SZ",
+    'kt-ow': "OW",
+    'kt-nw': "NW",
+    'kt-gl': "GL",
+    'kt-zg': "ZG",
+    'kt-fr': "FR",
+    'kt-so': "SO",
+    'kt-bl': "BL",
+    'kt-bs': "BS",
+    'kt-sh': "SH",
+    'kt-ar': "AR",
+    'kt-ai': "AI",
+    'kt-sg': "SG",
+    'kt-gr': "GR",
+    'kt-ag': "AG",
+    'kt-tg': "TG",
+    'kt-ti': "TI",
+    'kt-vd': "VD",
+    'kt-vs': "VS",
+    'kt-ne': "NE",
+    'kt-ge': "GE",
 }
 
 
